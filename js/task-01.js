@@ -4,8 +4,6 @@ console.log(`Number of categories: ${listEl.length}`);
 listEl.forEach((el) => {
     const itemName = el.firstElementChild;
     const itemLength = el.lastElementChild.children;
-    console.log(
-        `Category: ${itemName.textContent}`,
-        `Elements: ${itemLength.length}`
-    );
+    console.log(`Category: ${itemName.textContent}`);
+    console.log(`Elements: ${itemLength.length}`);
 });

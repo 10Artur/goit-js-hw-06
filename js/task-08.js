@@ -15,4 +15,5 @@ formEl.addEventListener("submit", (e) => {
         };
         console.log(dataForm);
     }
+    e.currentTarget.reset();
 });
